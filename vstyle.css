@@ -1,0 +1,119 @@
+body
+{
+background: #FFF;
+}
+h1.yellow_title
+{
+
+font-size: 72px;
+color: #e7dc26;
+font-family: Verdana;
+text-align: center;
+}
+
+h1.yellow_name
+{
+
+font-size: 32px;
+color: #333;
+font-family: Arial;
+margin: 0;
+}
+h3.yellow_loc
+{
+
+font-size: 16px;
+color: #666;
+font-weight: normal;
+font-family: Georgia;
+margin: 10px 0;
+}
+h3.country
+{
+font-family: Arial;
+text-transform: uppercase;
+font-size: 16px;
+margin: 0;
+font-weight: bold;
+color: #666;
+}
+div.wrapper
+{
+width: 960px;
+margin: 0 auto;
+}
+form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font:100% verdana,arial,sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 500px;
+  max-width: 600px;
+  width: 560px; 
+  color: #666;
+}
+
+form fieldset {
+  clear: both;
+  padding: 10px;        /* padding in fieldset support spotty in IE */
+  margin: 0;
+  border: 0;
+}
+
+
+
+form label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 180px; 
+	padding: 0; 
+	margin: 10px 0 0; /* set top margin same as form input - textarea etc. elements */
+	text-align: right; 
+	clear: both;
+	font-size: 0.9em;
+	
+}
+
+form input.yellowText  { 
+
+width: 200px;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 10px 10px; 
+border: 1px solid #DDD;
+border-radius: 4px;
+box-shadow: 0 0 8px  0px #EEE inset;
+background: #FFF;
+height: 30px;
+padding: 0 10px;
+}
+
+
+form input.submitButton { 
+cursor: pointer;
+height: 30px;
+padding: 0 10px;
+float: right;
+width: 100px;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+margin: 5px 160px 0 10px;
+
+}
+
+a.logout
+{
+font-family: Arial;
+font-size: 20px;
+color: #000;
+text-decoration: underline;
+}
+
+.holdpic
+{
+float: left;
+margin-left: 50px;
+padding-top: 10px;
+}
+
+.holdinfo
+{
+float: left;
+margin-left: 2s0px;
+}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
